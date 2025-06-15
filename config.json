@@ -1,0 +1,20 @@
+{
+  "input": {
+    "type": "Kaiserslautern",
+    "bucket": "openaq-data-archive",
+    "prefix": "records/csv.gz/locationid=3097/year=2025/month=01"
+  },
+  "kafka": {
+    "bootstrap": "localhost:9092",
+    "topic": "openaq_airquality"
+  },
+  "logging": {
+    "ingestion_path": "./logs/data_ingestion_log.csv",
+    "consumer_path": "./logs/data_consumer_log.csv"
+  },
+  "output": {
+    "type": "file",
+    "format": "csv",
+    "path": "./output/transformed_data.csv"
+  }
+}

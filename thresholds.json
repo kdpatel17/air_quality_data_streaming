@@ -1,0 +1,24 @@
+{
+  "pm25": {
+    "units": "µg/m³",
+    "thresholds": [
+      { "max": 12.0, "quality": "Good" },
+      { "max": 35.4, "quality": "Moderate" },
+      { "max": 55.4, "quality": "Unhealthy for Sensitive Groups" },
+      { "max": 150.4, "quality": "Unhealthy" },
+      { "max": 250.4, "quality": "Very Unhealthy" },
+      { "max": 500.4, "quality": "Hazardous" }
+    ]
+  },
+  "o3": {
+    "units": "ppb",
+    "thresholds": [
+      { "max": 54, "quality": "Good" },
+      { "max": 70, "quality": "Moderate" },
+      { "max": 85, "quality": "Unhealthy for Sensitive Groups" },
+      { "max": 105, "quality": "Unhealthy" },
+      { "max": 200, "quality": "Very Unhealthy" },
+      { "max": 400, "quality": "Hazardous" }
+    ]
+  }
+}
