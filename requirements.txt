@@ -2,4 +2,4 @@ kafka-python
 pandas
 boto3
 confluent_kafka
-
+tqdm

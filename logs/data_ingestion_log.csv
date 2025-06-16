@@ -178,3 +178,45 @@ timestamp,function,stage,count,status,info
 2025-06-15T18:50:02.516583,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250129.csv.gz
 2025-06-15T18:50:07.648688,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250130.csv.gz
 2025-06-15T18:50:12.818798,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250131.csv.gz
+2025-06-16T07:44:46.057394,data_ingestion,file_listed,31,success,S3 file keys listed
+2025-06-16T07:52:41.525024,data_ingestion,file_listed,31,success,S3 file keys listed
+2025-06-16T07:58:12.181946,data_ingestion,file_listed,31,success,S3 file keys listed
+2025-06-16T08:03:12.863156,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250101.csv.gz
+2025-06-16T08:08:46.792293,data_ingestion,file_listed,31,success,S3 file keys listed
+2025-06-16T08:30:12.470030,data_ingestion,file_listed,31,success,S3 file keys listed
+2025-06-16T08:43:18.052130,data_ingestion,file_listed,31,success,S3 file keys listed
+2025-06-16T08:43:19.003095,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250101.csv.gz
+2025-06-16T08:43:24.179548,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250102.csv.gz
+2025-06-16T08:43:29.320745,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250103.csv.gz
+2025-06-16T08:43:34.476448,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250104.csv.gz
+2025-06-16T08:43:39.664126,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250105.csv.gz
+2025-06-16T08:43:49.697516,data_ingestion,produce_kafka,137,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250106.csv.gz
+2025-06-16T08:43:59.045804,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250107.csv.gz
+2025-06-16T08:44:04.201633,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250108.csv.gz
+2025-06-16T08:44:37.307027,data_ingestion,error,0,fail,"Could not connect to the endpoint URL: ""https://openaq-data-archive.s3.amazonaws.com/records/csv.gz/locationid%3D3097/year%3D2025/month%3D01/location-3097-20250109.csv.gz"""
+2025-06-16T08:44:45.121517,data_ingestion,error,0,fail,"Could not connect to the endpoint URL: ""https://openaq-data-archive.s3.amazonaws.com/records/csv.gz/locationid%3D3097/year%3D2025/month%3D01/location-3097-20250110.csv.gz"""
+2025-06-16T08:44:57.372753,data_ingestion,error,0,fail,"Could not connect to the endpoint URL: ""https://openaq-data-archive.s3.amazonaws.com/records/csv.gz/locationid%3D3097/year%3D2025/month%3D01/location-3097-20250111.csv.gz"""
+2025-06-16T08:45:07.252169,data_ingestion,error,0,fail,"Could not connect to the endpoint URL: ""https://openaq-data-archive.s3.amazonaws.com/records/csv.gz/locationid%3D3097/year%3D2025/month%3D01/location-3097-20250112.csv.gz"""
+2025-06-16T08:45:08.899908,data_ingestion,produce_kafka,84,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250113.csv.gz
+2025-06-16T08:45:14.062380,data_ingestion,produce_kafka,138,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250114.csv.gz
+2025-06-16T08:45:19.221430,data_ingestion,produce_kafka,66,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250115.csv.gz
+2025-06-16T08:45:24.364912,data_ingestion,produce_kafka,18,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250116.csv.gz
+2025-06-16T08:45:29.506712,data_ingestion,produce_kafka,12,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250117.csv.gz
+2025-06-16T08:45:34.650158,data_ingestion,produce_kafka,24,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250118.csv.gz
+2025-06-16T08:45:44.788110,data_ingestion,produce_kafka,15,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250119.csv.gz
+2025-06-16T08:45:54.129264,data_ingestion,produce_kafka,84,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250120.csv.gz
+2025-06-16T08:45:59.273004,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250121.csv.gz
+2025-06-16T08:46:04.434060,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250122.csv.gz
+2025-06-16T08:46:12.823242,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250123.csv.gz
+2025-06-16T08:46:22.196999,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250124.csv.gz
+2025-06-16T08:46:27.358201,data_ingestion,produce_kafka,142,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250125.csv.gz
+2025-06-16T08:46:32.516029,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250126.csv.gz
+2025-06-16T08:46:37.686111,data_ingestion,produce_kafka,138,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250127.csv.gz
+2025-06-16T08:46:42.824302,data_ingestion,produce_kafka,138,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250128.csv.gz
+2025-06-16T08:46:47.982212,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250129.csv.gz
+2025-06-16T08:46:53.133475,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250130.csv.gz
+2025-06-16T08:46:58.269065,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250131.csv.gz
+2025-06-16T08:48:41.792414,data_ingestion,file_listed,31,success,S3 file keys listed
+2025-06-16T10:38:29.206204,data_ingestion,file_listed,31,success,S3 file keys listed
+2025-06-16T10:42:03.003262,data_ingestion,file_listed,31,success,S3 file keys listed
+2025-06-16T10:47:08.918296,data_ingestion,produce_kafka,144,success,records/csv.gz/locationid=3097/year=2025/month=01/location-3097-20250101.csv.gz

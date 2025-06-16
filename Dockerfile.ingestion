@@ -15,7 +15,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN mkdir -p logs output
 
 # Set environment variables (optional, can also come from docker-compose)
-ENV PYTHONUNBUFFERED=1
+# ENV PYTHONUNBUFFERED=1
 
 # Default command (can be changed from docker-compose)
-CMD ["python", "data-ingestion.py"]
+CMD ["python", "data_ingestion.py"]
