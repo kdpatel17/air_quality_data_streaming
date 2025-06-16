@@ -23,6 +23,11 @@ Prior to initiating the setup process, ensure that the following software compon
     pip install -r requirements.txt
    ```
 ## Docker Compose Setup
+This command will:
++ Start the kafka broker container using Kafka image.
++ Build and run zookeeper, kafka, init_kafka and data_ingestion.py.
++ Mount necessary volumes for logs and output storages.
+
 1. **Clone the repository**
 
 2. **Configure Docker Compose**:
@@ -40,10 +45,6 @@ Prior to initiating the setup process, ensure that the following software compon
        docker-composer up -build
      ```
 
-This command will:
-+ Start the kafka broker container using Kafka image.
-+ Build and run zookeeper, kafka, init_kafka and data_ingestion.py.
-+ Mount necessary volumes for logs and output storages.
 
 ## Run Kafka Consumer
 While the Docker containers are running, open a new terminal window and set up your Python environment.
