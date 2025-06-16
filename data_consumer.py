@@ -1,6 +1,5 @@
 from kafka import KafkaConsumer
 import json
-import os
 import pandas as pd
 from logger_utils import *
 
@@ -56,8 +55,8 @@ with open('./config.json', 'r', encoding='utf-8') as f:
 with open('./thresholds.json', 'r', encoding='utf-8') as f:
     thresholds = json.load(f)
 
-kafka_bootstrap = config_data["kafka"]["bootstrap"]
-# kafka_bootstrap = "localhost:9092"
+# kafka_bootstrap = config_data["kafka"]["bootstrap"]
+kafka_bootstrap = "localhost:9092"
 kafka_topic = config_data["kafka"]["topic"]
 output_file = config_data["output"]["path"]
 log_conf = config_data["logging"]["consumer_path"]
