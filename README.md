@@ -35,7 +35,8 @@ Prior to initiating the setup process, ensure that the following software compon
 4. **Initiate the Docker Container**:
    + Open a terminal and navigate to the directory containers docker-compose.yml
    + Make sure Docker Desktop is started to compose .yml file and start kafka server
-   + Execute following command to start Kafka environment
+   + Execute following command to start Kafka environment:
+     
       ```bash
        docker-composer up -build
      ```
