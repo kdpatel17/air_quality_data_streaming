@@ -84,15 +84,15 @@ services:
       - ./output:/app/output
 
   # ─────────────── Air-quality consumer ───────────────
-  consumer:
-    build:
-      context: .
-      dockerfile: Dockerfile.consume
-    environment:
-      BOOTSTRAP_SERVERS: kafka:9093
-      TOPIC_NAME: openaq_airquality
-    networks:
-      - kafka-network
-    volumes:
-      - ./logs:/app/logs
-      - ./output:/app/output
+#  consumer:
+#    build:
+#      context: .
+#      dockerfile: Dockerfile.consume
+#    environment:
+#      BOOTSTRAP_SERVERS: kafka:9093
+#      TOPIC_NAME: openaq_airquality
+#    networks:
+#      - kafka-network
+#    volumes:
+#      - ./logs:/app/logs
+#      - ./output:/app/output

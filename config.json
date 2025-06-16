@@ -5,7 +5,7 @@
     "prefix": "records/csv.gz/locationid=3097/year=2025/month=01"
   },
   "kafka": {
-    "bootstrap": "kafka:9092",
+    "bootstrap": "kafka:9093",
     "topic": "openaq_airquality"
   },
   "logging": {
