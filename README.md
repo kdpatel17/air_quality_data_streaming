@@ -27,13 +27,13 @@ Prior to initiating the setup process, ensure that the following software compon
     pip install -r requirements.txt
    ```
 ## Docker Compose Setup
-1. **Clone the repository**.
+1. **Clone the repository**
 
 2. **Configure Docker Compose**:
-   + Ensure the presence of a docker-compose.yml file that configures the Kafka environment.
+   - Ensure the presence of a docker-compose.yml file that configures the Kafka environment.
    
 3. **Launching Docker Desktop**:
-   + Start Docker Desktop: Launch Docker Desktop from your applications menu. This action will start the Docker daemon and provide a graphical user interface for managing your containers.
+   - Start Docker Desktop: Launch Docker Desktop from your applications menu. This action will start the Docker daemon and provide a graphical user interface for managing your containers.
    
 4. **Initiate the Docker Container**:
    + Open a terminal and navigate to the directory containers docker-compose.yml
