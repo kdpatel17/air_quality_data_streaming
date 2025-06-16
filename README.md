@@ -4,10 +4,6 @@ This repository provides a Kafka-based data streaming pipeline for real-time air
 
 ===========================================================
 
-## 📁 Project Structure
-
-[Folder Structure Diagram](./pipeline_structure/project_structure.jpg)
-
 ## Data Pipeline with Kafka and Docker
 This project illustrates the implementation of a data pipeline designed to ingest data from an Amazon S3 bucket, process it using Apache Kafka, and subsequently consume the processed data locally. The data is related to air quality which is being provided by OpenAQ.
 This pipeline compromises two primary scripts: 'data_ingestion.py' and 'data_consumer.py'.
