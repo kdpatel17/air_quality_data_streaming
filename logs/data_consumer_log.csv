@@ -3623,3 +3623,72 @@ timestamp,function,stage,count,status,info
 2025-06-16T08:46:53.144765,data_consumer,batch_save,100,success,./output/transformed_data.csv
 2025-06-16T08:46:53.152049,data_consumer,Message Received,2918,success,./output/transformed_data.csv
 2025-06-16T08:46:53.154288,data_consumer,DataFrame Data,900,success,./output/transformed_data.csv
+2025-06-16T10:55:02.162733,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T10:55:02.164919,data_consumer,Message Received,317,success,./output/transformed_data.csv
+2025-06-16T10:55:02.166245,data_consumer,DataFrame Data,100,success,./output/transformed_data.csv
+2025-06-16T10:55:02.205750,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T10:55:02.208128,data_consumer,Message Received,609,success,./output/transformed_data.csv
+2025-06-16T10:55:02.209507,data_consumer,DataFrame Data,200,success,./output/transformed_data.csv
+2025-06-16T10:55:02.213768,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T10:55:02.215234,data_consumer,Message Received,921,success,./output/transformed_data.csv
+2025-06-16T10:55:02.217681,data_consumer,DataFrame Data,300,success,./output/transformed_data.csv
+2025-06-16T10:55:02.263691,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T10:55:02.265044,data_consumer,Message Received,1315,success,./output/transformed_data.csv
+2025-06-16T10:55:02.267613,data_consumer,DataFrame Data,400,success,./output/transformed_data.csv
+2025-06-16T10:55:02.302913,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T10:55:02.307031,data_consumer,Message Received,1607,success,./output/transformed_data.csv
+2025-06-16T10:55:02.309122,data_consumer,DataFrame Data,500,success,./output/transformed_data.csv
+2025-06-16T10:55:02.313542,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T10:55:02.315010,data_consumer,Message Received,1858,success,./output/transformed_data.csv
+2025-06-16T10:55:02.317076,data_consumer,DataFrame Data,600,success,./output/transformed_data.csv
+2025-06-16T10:55:02.364499,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T10:55:02.366266,data_consumer,Message Received,2207,success,./output/transformed_data.csv
+2025-06-16T10:55:02.368167,data_consumer,DataFrame Data,700,success,./output/transformed_data.csv
+2025-06-16T10:55:02.406957,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T10:55:02.409538,data_consumer,Message Received,2506,success,./output/transformed_data.csv
+2025-06-16T10:55:02.411544,data_consumer,DataFrame Data,800,success,./output/transformed_data.csv
+2025-06-16T10:55:02.416352,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T10:55:02.417845,data_consumer,Message Received,2802,success,./output/transformed_data.csv
+2025-06-16T10:55:02.419982,data_consumer,DataFrame Data,900,success,./output/transformed_data.csv
+2025-06-16T10:55:02.467161,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T10:55:02.469243,data_consumer,Message Received,3208,success,./output/transformed_data.csv
+2025-06-16T10:55:02.472127,data_consumer,DataFrame Data,1000,success,./output/transformed_data.csv
+2025-06-16T10:55:02.496350,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T10:55:02.498413,data_consumer,Message Received,3506,success,./output/transformed_data.csv
+2025-06-16T10:55:02.500767,data_consumer,DataFrame Data,1100,success,./output/transformed_data.csv
+2025-06-16T13:43:06.759831,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T13:43:06.760377,data_consumer,Message Received,317,success,./output/transformed_data.csv
+2025-06-16T13:43:06.760377,data_consumer,DataFrame Data,100,success,./output/transformed_data.csv
+2025-06-16T13:43:06.801396,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T13:43:06.801912,data_consumer,Message Received,609,success,./output/transformed_data.csv
+2025-06-16T13:43:06.801912,data_consumer,DataFrame Data,200,success,./output/transformed_data.csv
+2025-06-16T13:43:06.805152,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T13:43:06.805680,data_consumer,Message Received,921,success,./output/transformed_data.csv
+2025-06-16T13:43:06.805680,data_consumer,DataFrame Data,300,success,./output/transformed_data.csv
+2025-06-16T13:43:06.857856,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T13:43:06.858386,data_consumer,Message Received,1315,success,./output/transformed_data.csv
+2025-06-16T13:43:06.858929,data_consumer,DataFrame Data,400,success,./output/transformed_data.csv
+2025-06-16T13:43:06.899705,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T13:43:06.900264,data_consumer,Message Received,1607,success,./output/transformed_data.csv
+2025-06-16T13:43:06.900264,data_consumer,DataFrame Data,500,success,./output/transformed_data.csv
+2025-06-16T13:43:06.903001,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T13:43:06.903566,data_consumer,Message Received,1858,success,./output/transformed_data.csv
+2025-06-16T13:43:06.904652,data_consumer,DataFrame Data,600,success,./output/transformed_data.csv
+2025-06-16T13:43:06.954573,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T13:43:06.955114,data_consumer,Message Received,2207,success,./output/transformed_data.csv
+2025-06-16T13:43:06.955654,data_consumer,DataFrame Data,700,success,./output/transformed_data.csv
+2025-06-16T13:43:06.994376,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T13:43:06.995378,data_consumer,Message Received,2506,success,./output/transformed_data.csv
+2025-06-16T13:43:06.995378,data_consumer,DataFrame Data,800,success,./output/transformed_data.csv
+2025-06-16T13:43:06.998996,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T13:43:06.998996,data_consumer,Message Received,2802,success,./output/transformed_data.csv
+2025-06-16T13:43:06.998996,data_consumer,DataFrame Data,900,success,./output/transformed_data.csv
+2025-06-16T13:43:07.046068,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T13:43:07.046068,data_consumer,Message Received,3208,success,./output/transformed_data.csv
+2025-06-16T13:43:07.047065,data_consumer,DataFrame Data,1000,success,./output/transformed_data.csv
+2025-06-16T13:43:07.062501,data_consumer,batch_save,100,success,./output/transformed_data.csv
+2025-06-16T13:43:07.063502,data_consumer,Message Received,3506,success,./output/transformed_data.csv
+2025-06-16T13:43:07.063502,data_consumer,DataFrame Data,1100,success,./output/transformed_data.csv
+2025-06-16T13:43:42.350411,data_consumer,interrupted_Data,58,last batch,./output/transformed_data.csv
+2025-06-16T13:43:42.350411,data_consumer,interrupted,0,info,Manual interrupt
+2025-06-16T13:43:42.370363,data_consumer,final_save,1158,success,./output/transformed_data.csv
