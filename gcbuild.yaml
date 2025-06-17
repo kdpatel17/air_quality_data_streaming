@@ -7,6 +7,6 @@ steps:
 
   # If you have a separate consumer image, build and push it as well
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/your-project-id/data-consumer-image', '-f', 'Dockerfile.consumer', '.']
+    args: ['build', '-t', 'gcr.io/your-project-id/data-consumer-image', '-f', 'Dockerfile.consume', '.']
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', 'gcr.io/your-project-id/data-consumer-image']
