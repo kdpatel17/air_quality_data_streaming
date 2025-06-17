@@ -1,9 +1,32 @@
 steps:
-  # Build and push the ingestion image
+  # Step 1: Build and run services using docker-compose
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/airqualitystreaming/data-ingestion-image', '-f', 'Dockerfile.ingestion', '.']
+    args: ['compose', 'up', '-d']
+    id: 'Run docker-compose'
+
+  # Step 2: Build the consumer image
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/airqualitystreaming/data-ingestion-image']
+    args: ['build', '-t', 'gcr.io/airqualitystreaming/consumer-image', '-f', 'Dockerfile.consume', '.']
+    id: 'Build consumer image'
+
+  # Step 3: Push the consumer image to Google Container Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/airqualitystreaming/consumer-image']
+    id: 'Push consumer image'
+
+  # Step 4: Run the consumer image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['run', 'gcr.io/airqualitystreaming/consumer-image']
+    id: 'Run consumer image'
+
+
+
+#steps:
+#  # Build and push the ingestion image
+#  - name: 'gcr.io/cloud-builders/docker'
+#    args: ['build', '-t', 'gcr.io/airqualitystreaming/data-ingestion-image', '-f', 'Dockerfile.ingestion', '.']
+#  - name: 'gcr.io/cloud-builders/docker'
+#     args: ['push', 'gcr.io/airqualitystreaming/data-ingestion-image']
 
   # Build and push the consumer image
 #  - name: 'gcr.io/cloud-builders/docker'
