@@ -1,7 +1,7 @@
 steps:
   # Build and push the ingestion image
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/airqualitystreaming/data-ingestion-image', '-f', 'docker.ingestion', '.']
+    args: ['build', '-t', 'gcr.io/airqualitystreaming/data-ingestion-image', '-f', 'Dockerfile.ingestion', '.']
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', 'gcr.io/airqualitystreaming/data-ingestion-image']
 
