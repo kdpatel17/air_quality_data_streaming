@@ -1,15 +1,15 @@
 steps:
   # Build and push the ingestion image
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcringest/airqualitystreaming/data-ingestion-image', '-f', 'docker-compose.yml', '.']
+    args: ['build', '-t', 'gcr.io/airqualitystreaming/data-ingestion-image', '-f', 'docker-compose.yml', '.']
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcringest/airqualitystreaming/data-ingestion-image']
+    args: ['push', 'gcr.io/airqualitystreaming/data-ingestion-image']
 
   # Build and push the consumer image
-  - name: 'gcr.io/cloud-builders/docker'
-    args: [ 'build', '-t', 'gcrconsume/airqualitystreaming/data-consumer-image', '-f', 'Dockerfile.consume', '.' ]
-  - name: 'gcr.io/cloud-builders/docker'
-    args: [ 'push', 'gcrconsume/airqualitystreaming/data-consumer-image' ]
+#  - name: 'gcr.io/cloud-builders/docker'
+#    args: [ 'build', '-t', 'gcrconsume/airqualitystreaming/data-consumer-image', '-f', 'Dockerfile.consume', '.' ]
+#  - name: 'gcr.io/cloud-builders/docker'
+#    args: [ 'push', 'gcrconsume/airqualitystreaming/data-consumer-image' ]
 
 
 
