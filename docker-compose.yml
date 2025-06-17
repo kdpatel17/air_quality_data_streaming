@@ -9,13 +9,10 @@ services:
     container_name: zookeeper
     ports:
       - "2181:2181"
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "10m"
-        max-file: "4"
     networks:
       - kafka-network
+    restart: unless-stopped
+
 
   kafka:
     image: wurstmeister/kafka:latest
@@ -40,11 +37,8 @@ services:
       # KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "10m"
-        max-file: "4"
+    restart: unless-stopped
+
   
 
   # ─────────────── Initiate kafka topic ───────────────
@@ -84,6 +78,7 @@ services:
     volumes:
       - ./logs:/app/logs
       - ./output:/app/output
+    restart: unless-stopped
 
   # ─────────────── Air-quality consumer ───────────────
 #  consumer:
