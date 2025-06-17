@@ -1,0 +1,5 @@
+steps:
+  - name: 'gcr.io/cloud-builder/docker'
+    args: ['build', '-t', 'gce.io/airqualitystreaming/aq_dockerimage', 'docker-compose.yml']
+  - name: 'gcr.io/cloud-builder/docker'
+    args: ['push', '-t', 'gce.io/airqualitystreaming/aq_dockerimage', 'docker-compose.yml']
