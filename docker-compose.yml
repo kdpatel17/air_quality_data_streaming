@@ -20,6 +20,8 @@ services:
   kafka:
     image: wurstmeister/kafka:latest
     container_name: kafka
+    depends_on:
+      - zookeeper
     ports:
       - "9092:9092"       # reachable from your laptop
     expose:
