@@ -3,3 +3,7 @@ pandas
 boto3
 confluent_kafka
 tqdm
+plotly
+matplotlib
+seaborn
+os

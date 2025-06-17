@@ -16,5 +16,8 @@
     "type": "file",
     "format": "csv",
     "path": "./output/transformed_data.csv"
+  },
+  "images":{
+    "path": "./images"
   }
 }
