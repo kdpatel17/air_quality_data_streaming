@@ -3,21 +3,24 @@ steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: ['compose', 'up', '-d']
     id: 'Run docker-compose'
+    waitFor: ['-'] # This step doesn't wait for any other steps to complete
 
   # Step 2: Build the consumer image
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'gcr.io/airqualitystreaming/consumer-image', '-f', 'Dockerfile.consume', '.']
     id: 'Build consumer image'
+    waitFor: ['-'] # This step doesn't wait for any other steps to complete
 
-  # Step 3: Push the consumer image to Google Container Registry
-  - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/airqualitystreaming/consumer-image']
-    id: 'Push consumer image'
+#  # Step 3: Push the consumer image to Google Container Registry
+#  - name: 'gcr.io/cloud-builders/docker'
+#    args: ['push', 'gcr.io/airqualitystreaming/consumer-image']
+#    id: 'Push consumer image'
 
   # Step 4: Run the consumer image
   - name: 'gcr.io/cloud-builders/docker'
     args: ['run', 'gcr.io/airqualitystreaming/consumer-image']
     id: 'Run consumer image'
+    waitFor: ['Build consumer image'] # Wait for the consumer image to be built
 
 
 

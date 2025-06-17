@@ -75,7 +75,8 @@ with open('./thresholds.json', 'r', encoding='utf-8') as f:
     thresholds = json.load(f)
 
 # Configuration parameters
-kafka_bootstrap = "localhost:9092"                                                                                      # Kafka bootstrap servers
+#kafka_bootstrap = "localhost:9092"                                                                                     # Kafka bootstrap servers
+kafka_bootstrap = config_data["kafka"]["bootstrap"]                                                                     # kafka bootstrap server
 kafka_topic = config_data["kafka"]["topic"]                                                                             # Kafka topic to consume messages from
 output_file = config_data["output"]["path"]                                                                             # Path to save the output CSV file
 log_conf = config_data["logging"]["consumer_path"]                                                                      # Logging configuration path
